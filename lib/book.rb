@@ -26,7 +26,9 @@ class Book
 end
 
 ### prediction
-# Book.new("Harry Potter") #=> "Harry Potter"
+# book = Book.new("Harry Potter") #=> "Harry Potter"
+# book.author = "J.K. Rowling"
+# book.page_count = 
 
 
 
