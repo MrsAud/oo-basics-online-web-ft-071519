@@ -13,13 +13,14 @@ class Book
 end
 
 ### prediction
- book = Book.new("Harry Potter") #=> "Harry Potter"
+ book = Book.new("Harry Potter") 
+ puts book.title #=> "Harry Potter"
  book.author = "J.K. Rowling"
- book.author #=> "J.K. Rowling"
+ puts book.author
  book.page_count = 4224
- book.page_count #=> 4224
+ puts book.page_count #=> 4224
  book.genre = "fantasy"
- book.genre #=> "fantasy"
+ puts book.genre #=> "fantasy"
  book.turn_page #=> "Flipping the page...wow, you read fast!"
 
 
