@@ -15,7 +15,18 @@ class Book
     @author
   end
   
+  def page_count=(num)
+    @page_count = num
+  end
+  
+  def page_count
+    @page_count
+  end
+  
 end
 
 ### prediction
-# Book.new("Harry Potter and the Prisoner of Azkaban")
+# Book.new("Harry Potter") #=> "Harry Potter"
+
+
+
